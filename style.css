@@ -153,6 +153,7 @@
 .lesson-head-right-item {
     padding: .5rem 1rem;
     color: grey;
+    user-select: none;
 }
 
 .lesson-head-right-item input{
@@ -160,8 +161,10 @@
 }
 
 .lesson-head-right-item input:checked{
+    font-weight: 700;
     background-color: white;
-    color: black;   
+    box-shadow: 0 0 20px rgb(211, 211, 211);
+    color: black;
 }
 
 .lesson-card {
@@ -543,7 +546,7 @@
     font-weight: 700;
     background-color: white;
     box-shadow: 0 0 20px rgb(211, 211, 211);
-    color: black;   
+    color: black;
 }
 
 .show {
